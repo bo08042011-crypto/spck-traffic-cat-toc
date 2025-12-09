@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="trangdangnhap.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@5"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="h-screen w-screen">
+        <div class="bg-img flex items-center justify-center">
+            <div
+                class="flex h-[80vh] mx-5 border border-gray-300 shadow-sm rounded-xl overflow-hidden bg-white bg-opacity-90"
+            >
+                <div class="w-1/2 hidden md:block">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRqTG2SywmEB32A0CGQe3aARPMrPYt3nUUnl1QCYXhPjSV8anisCDl17ZJHzlt2QSHVucrSZIdRV83UWvKKQOKLF38&s=19"
+                        alt=""
+                        class="h-full w-full object-cover"
+                    />
+                </div>
+                <div
+                    class="w-full md:w-1/2 flex flex-col justify-center items-center p-10"
+                >
+                    <h2 class="text-3xl font-bold mb-5">Đăng Nhập</h2>
+                    <input
+                        type="text"
+                        placeholder="Tên đăng nhập"
+                        class="w-full border border-gray-300 rounded-lg p-3 mb-4"
+                    />
+                    <input
+                        type="password"
+                        placeholder="Mật khẩu"
+                        class="w-full border border-gray-300 rounded-lg p-3 mb-4"
+                    />
+                    <button
+                        class="w-full bg-blue-600 text-white rounded-lg p-3 hover:bg-blue-700 transition"
+                    >
+                        Đăng Nhập
+                    </button>
+                    <p class="mt-4">
+                        Chưa có tài khoản?
+                        <a href="#" class="text-blue-600 font-semibold"
+                            >Đăng Ký Ngay</a
+                        >
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

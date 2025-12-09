@@ -1,0 +1,9 @@
+.bg-img {
+    height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRqTG2SywmEB32A0CGQe3aARPMrPYt3nUUnl1QCYXhPjSV8anisCDl17ZJHzlt2QSHVucrSZIdRV83UWvKKQOKLF38&s=19");
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    background-size: cover; /* Phóng to hoặc thu nhỏ ảnh để lấp đầy, cắt bớt nếu cần */
+    background-position: center; /* Căn ảnh ra giữa */
+    /* Hoặc dùng 'contain' nếu muốn ảnh hiển thị toàn bộ mà không bị cắt */
+    /* background-size: contain; */
+}
