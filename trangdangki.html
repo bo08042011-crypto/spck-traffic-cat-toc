@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign in form</title>
+    </head>
+    <link
+        href="https://cdn.jsdelivr.net/npm/daisyui@5"
+        rel="stylesheet"
+        type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap"
+        rel="stylesheet"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <body>
+        <div
+            class="flex h-[85vh] my-10 mx-5 border border-gray-300 shadow-sm rounded-xl overflow-hidden"
+        >
+            <div class="flex-1">
+                <img
+                    src="https://media.vov.vn/sites/default/files/styles/large/public/2021-10/thuy-si-chon-thien-duong-dep-me-hon-tren-trai-dat1.jpg"
+                    alt=""
+                    class="h-full object-cover"
+                />
+            </div>
+            <div class="flex-1 py-10 px-2 space-y-5 text-gray-700">
+                <div
+                    class="h-12 w-12 flex items-center justify-center rounded-full text-2xl mx-auto border border-black"
+                >
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="text-center">
+                    <h1 class="text-xl font-medium mb-1 text-green-700">
+                        Create Account
+                    </h1>
+                    <p>Chào mừng quý khách đến với trang đăng ký tài khoản.</p>
+                </div>
+                <div class="space-y-4">
+                    <div
+                        class="border border-gray-300 px-3 py-2 rounded-md flex items-center justify-between"
+                    >
+                        <input
+                            type="text"
+                            id="fullname"
+                            class="border-none focus-visible:outline-none"
+                            placeholder="Full Name"
+                        />
+                        <i class="fa-solid fa-person"></i>
+                    </div>
+                </div>
+                <div class="space-y-3">
+                    <div
+                        class="border border-gray-300 px-3 py-2 rounded-md flex items-center justify-between"
+                    >
+                        <input
+                            type="text"
+                            class="border-none focus-visible:outline-none"
+                            placeholder="Email"
+                        />
+                        <i class="fa-solid fa-at"></i>
+                    </div>
+                    <div
+                        class="border border-gray-300 px-3 py-2 rounded-nd flex items-center justify-between"
+                    >
+                        <input
+                            type="password"
+                            class="border-none focus-visible:outline-none"
+                            placeholder="Password"
+                        />
+                        <i class="fa-solid fa-key"></i>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center">
+                    <div class="">
+                        <input type="checkbox" id="remember" />
+                        <label for="remember" class="text-sm text-gray-600"
+                            >Remember Password</label
+                        >
+                    </div>
+                    <p class="text-blue-700 font-medium">Recovery Password</p>
+                </div>
+                <button class="btn w-full bg-blue-700 text-white">Login</button>
+                <button class="btn w-full text-gray-600">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png"
+                        alt=""
+                        class="w-4 h-4 mr-2"
+                    />Sign up with Google
+                </button>
+                <div class="flex items-center gap-3 mt-10 justify-center">
+                    <p>Don't have a password</p>
+                    <p class="text-blue-700">Sign In Now!</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
